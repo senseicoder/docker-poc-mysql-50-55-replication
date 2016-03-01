@@ -1,1 +1,3 @@
-docker build -t mysql_jessie .
+image=mysql_jessie
+docker build -t $image .
+docker run -ti $image bash

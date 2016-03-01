@@ -1,1 +1,3 @@
-docker build -t mysql_lenny .
+image=mysql_lenny
+docker build -t $image .
+docker run -ti $image bash

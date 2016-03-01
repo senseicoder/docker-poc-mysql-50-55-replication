@@ -1,2 +1,7 @@
+[client]
+user=root
+password=root
+
 [mysqld]
 bind-address            = 0.0.0.0
+server-id              = 3
